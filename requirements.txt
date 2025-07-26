@@ -7,3 +7,7 @@ pymongo[srv]==4.7
 scikit-learn
 mlflow
 pyaml
+dagshub
+fastapi
+uvicorn
+python-multipart

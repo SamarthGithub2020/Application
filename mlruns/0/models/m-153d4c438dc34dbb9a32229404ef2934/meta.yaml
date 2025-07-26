@@ -1,0 +1,10 @@
+artifact_location: file:///D:/Complete%20MLOps%20Bootcamp%20course%202025/Section19%20-%20End%20to%20End%20Projects%20with%20ETL%20pipelines%20-%20Building%20Network%20Security%20System/Network_Security/mlruns/0/models/m-153d4c438dc34dbb9a32229404ef2934/artifacts
+creation_timestamp: 1753493636437
+experiment_id: '0'
+last_updated_timestamp: 1753493642021
+model_id: m-153d4c438dc34dbb9a32229404ef2934
+model_type: null
+name: model
+source_run_id: 581691d39e18468fb10b4eebbd40f7a6
+status: 2
+status_message: null

@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Complete%20MLOps%20Bootcamp%20course%202025/Section19%20-%20End%20to%20End%20Projects%20with%20ETL%20pipelines%20-%20Building%20Network%20Security%20System/Network_Security/mlruns/0/3abbdba3ed604d2a82f3a8b2c8f3a635/artifacts
+end_time: 1753490360691
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3abbdba3ed604d2a82f3a8b2c8f3a635
+run_name: bittersweet-cow-970
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753490351735
+status: 3
+tags: []
+user_id: Samarth

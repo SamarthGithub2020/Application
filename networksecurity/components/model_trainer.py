@@ -18,7 +18,8 @@ from sklearn.ensemble import(
     RandomForestClassifier)
 import mlflow
 from urllib.parse import urlparse
-
+import dagshub
+#dagshub.init(repo_owner='vaishnavsamarth', repo_name='Network_Security', mlflow=True)
 
 class ModelTrainer:
     def __init__(self,model_trainer_config:ModelTrainerConfig,data_transformation_artifact:DataTransformationArtifact):
@@ -36,9 +37,7 @@ class ModelTrainer:
             f1_score=classificationmetric.f1_score
             precision_score=classificationmetric.precision_score
             recall_score=classificationmetric.recall_score
-
             
-
             mlflow.log_metric("f1_score",f1_score)
             mlflow.log_metric("precision",precision_score)
             mlflow.log_metric("recall_score",recall_score)
@@ -143,6 +142,5 @@ class ModelTrainer:
             
             model_trainer_artifact=self.train_model(x_train,y_train,x_test,y_test)
             return model_trainer_artifact
-        
         except Exception as e:
             raise NetworkSecurityException(e,sys)

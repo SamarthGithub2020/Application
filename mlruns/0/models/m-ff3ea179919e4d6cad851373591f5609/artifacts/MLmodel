@@ -1,0 +1,22 @@
+artifact_path: file:///D:/Complete%20MLOps%20Bootcamp%20course%202025/Section19%20-%20End%20to%20End%20Projects%20with%20ETL%20pipelines%20-%20Building%20Network%20Security%20System/Network_Security/mlruns/0/models/m-ff3ea179919e4d6cad851373591f5609/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.1
+mlflow_version: 3.1.4
+model_id: m-ff3ea179919e4d6cad851373591f5609
+model_size_bytes: 3395903
+model_uuid: m-ff3ea179919e4d6cad851373591f5609
+prompts: null
+run_id: 174f23a23bda424ca6545ef0e3464633
+utc_time_created: '2025-07-26 01:34:09.405767'

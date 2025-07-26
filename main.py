@@ -36,6 +36,5 @@ if __name__=='__main__':
         model_trainer=ModelTrainer(model_trainer_config=model_trainer_config,data_transformation_artifact=data_transformation_artifact)
         model_trainer_artifact=model_trainer.initiate_model_trainer()
         logging.info("Model training Artifact Created")
-        
     except Exception as e:
         raise NetworkSecurityException(e,sys)
